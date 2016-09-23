@@ -18,3 +18,13 @@ BIBLIOGRAPHY: https://es.wikipedia.org/wiki/Spring_Framework#M.C3.B3dulos - http
 JUNIT TEST FRAMEWORK:
 	JUnit is a Regression Testing Framework used by developers to implement unit testing in Java, and accelerate programming speed and increase the quality of code. JUnit Framework can be easily integrated with either of the following: Eclipse, Ant, Maven. JUnit test framework provides the following important features: Fixtures, Test suites, Test runners, JUnit classes. Fixtures is a fixed state of a set of objects used as a baseline for running tests. The purpose of a test fixture is to ensure that there is a well-known and fixed environment in which tests are run so that results are repeatable. It includes: setUp() method, which runs before every test invocation, tearDown() method, which runs after very test method.
 BIBLIOGRAPHY: https://www.tutorialspoint.com/junit/junit_test_framework.html
+
+
+INSTALLING GRADLE:
+	- Windows 7: download Gradle binary only distribution (https://gradle.org/gradle-download/) and unpack it into a folder on your system.
+		Now, right click on "My Computer" and then select "Properties"->"Advance system settings". Next, click on "Environment Variables"
+		button, found in "Advanced" tab. Then we want to add 2 new user variable, GRADLE_HOME and PATH. To add a new variable, click on "New..."
+		button (from user variables frame).	For GRADLE_HOME variable enter "GRADLE_HOME" into	the input field for "Variable name", and the location
+		of the dowloaded gradle into "Variable value". For PATH variable, enter "PATH" and "%GRADLE_HOME%\bin". If PATH existed before we created,
+		then we have to edit it. For that, click on "Edit...", and add ";%GRADLE_HOME%\bin" at the end. Now you can use the gradle command
+		in any command prompt. 
